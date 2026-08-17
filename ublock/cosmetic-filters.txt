@@ -1,0 +1,50 @@
+! Carefully hand-written rules for https://dl.acm.org
+dl.acm.org##* > .premium
+dl.acm.org##aside
+dl.acm.org##.share
+dl.acm.org###sec-comments
+dl.acm.org##.denial-block
+dl.acm.org###sec-terms
+dl.acm.org##.info-panel__item.info-panel__metrics
+dl.acm.org##div.edition-badge-wrapper
+dl.acm.org##.upgrade-banner
+dl.acm.org###sec-recommendations
+
+! Carefully hand-written rules for https://www.glasgowlive.co.uk
+www.glasgowlive.co.uk##aside
+www.glasgowlive.co.uk###comments-wrapper
+www.glasgowlive.co.uk##div[data-tmdatatrack-type=commercial]
+www.glasgowlive.co.uk##header:style(top: 0px !important)
+www.glasgowlive.co.uk###main-content:style(max-width: 1000px !important)
+www.glasgowlive.co.uk##div[data-testid*="commercial-"]
+www.glasgowlive.co.uk##div[data-testid^="recommended-"]
+www.glasgowlive.co.uk##div[class*="sharebar"]
+www.glasgowlive.co.uk##div[class*="mastheadwebstrip"]
+www.glasgowlive.co.uk##.RHRBlock_h-line__hVhY7
+www.glasgowlive.co.uk##section[data-tmdatatrack="google-preferred"]
+www.glasgowlive.co.uk##section[data-testid="social-follow"]
+www.glasgowlive.co.uk##div[class*="socials"]
+
+! Carefully hand-written rules for https://www.independent.co.uk
+www.independent.co.uk##.sticky
+www.independent.co.uk##.sidebar
+www.independent.co.uk##div[data-component="Newsletter"]
+www.independent.co.uk###main:style(width: 1000px !important; padding:0; margin: auto)
+www.independent.co.uk##div[class*="main-wrapper"]:style(max-width: 1000px !important; line-height:1em;)
+www.independent.co.uk##div[class*="video-top-container"]
+
+! Carefully hand-written rules for https://www.theguardian.com/
+www.theguardian.com/##div[class*="maybe-later"]
+www.theguardian.com/##div[data-gu-name="right-column"]
+www.theguardian.com/###maincontent > div, p:style(max-width: 1000px !important; width:1000px; text-align: justify)
+
+! Carefully hand-written rules for https://www.dailyrecord.co.uk/
+www.dailyrecord.co.uk###pp-prompt
+www.dailyrecord.co.uk##aside[class*="aside-wrapper"]
+www.dailyrecord.co.uk##hr
+www.dailyrecord.co.uk##div[class*="sharebar-wrapper"]
+www.dailyrecord.co.uk##section[data-tmdatatrack="google-preferred"]
+www.dailyrecord.co.uk##section[class*="SocialFollowBar"]
+www.dailyrecord.co.uk###comments-wrapper
+www.dailyrecord.co.uk###article-body  p:style(text-align: justify; line-height: 1.3em !important; margin:5px !important;)
+www.dailyrecord.co.uk##div[class*="readmore-container"]
