@@ -50,3 +50,4 @@ www.dailyrecord.co.uk###article-body  p:style(text-align: justify; line-height: 
 www.dailyrecord.co.uk##div[class*="readmore-container"]
 www.dailyrecord.co.uk##div[data-testid*="recommended"]
 www.dailyrecord.co.uk##section[class*="poll-container"]
+www.dailyrecord.co.uk###factbox
