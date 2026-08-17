@@ -48,3 +48,5 @@ www.dailyrecord.co.uk##section[class*="SocialFollowBar"]
 www.dailyrecord.co.uk###comments-wrapper
 www.dailyrecord.co.uk###article-body  p:style(text-align: justify; line-height: 1.3em !important; margin:5px !important;)
 www.dailyrecord.co.uk##div[class*="readmore-container"]
+www.dailyrecord.co.uk##div[data-testid*="recommended"]
+www.dailyrecord.co.uk##section[class*="poll-container"]
