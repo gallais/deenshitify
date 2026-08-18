@@ -9,6 +9,7 @@ dl.acm.org##.info-panel__item.info-panel__metrics
 dl.acm.org##div.edition-badge-wrapper
 dl.acm.org##.upgrade-banner
 dl.acm.org###sec-recommendations
+dl.acm.org###gs-casa-r
 
 ! Carefully hand-written rules for https://www.glasgowlive.co.uk
 www.glasgowlive.co.uk##aside
@@ -32,6 +33,8 @@ www.independent.co.uk##div[data-component="Newsletter"]
 www.independent.co.uk###main:style(width: 1000px !important; padding:0; margin: auto)
 www.independent.co.uk##div[class*="main-wrapper"]:style(max-width: 1000px !important; line-height:1em;)
 www.independent.co.uk##div[class*="video-top-container"]
+www.independent.co.uk##div[class="show-comments"]
+www.independent.co.uk###comments
 
 ! Carefully hand-written rules for https://www.theguardian.com/
 www.theguardian.com/##div[class*="maybe-later"]
