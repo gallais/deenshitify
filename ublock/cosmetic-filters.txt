@@ -40,6 +40,7 @@ www.independent.co.uk###comments
 www.theguardian.com/##div[class*="maybe-later"]
 www.theguardian.com/##div[data-gu-name="right-column"]
 www.theguardian.com/###maincontent > div, p:style(max-width: 1000px !important; width:1000px; text-align: justify)
+www.theguardian.com/###slot-body-end
 
 ! Carefully hand-written rules for https://www.dailyrecord.co.uk/
 www.dailyrecord.co.uk###pp-prompt
