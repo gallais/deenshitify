@@ -1,3 +1,5 @@
+tinypass.com
+
 ! Carefully hand-written rules for https://dl.acm.org
 dl.acm.org##* > .premium
 dl.acm.org##aside
@@ -55,3 +57,9 @@ www.dailyrecord.co.uk##div[class*="readmore-container"]
 www.dailyrecord.co.uk##div[data-testid*="recommended"]
 www.dailyrecord.co.uk##section[class*="poll-container"]
 www.dailyrecord.co.uk###factbox
+
+! Carefully hand-written rules for https://www.thenational.scot
+www.thenational.scot##div[class*="social-bar"]
+www.thenational.scot##div[class*="article-row-container--right"]
+www.thenational.scot##div[class="article-row-container--left"]:style(max-width: 1000px !important; box-sizing: content-box;)
+www.thenational.scot##div[class="article-row-container"]:style(grid-template-columns: auto !important;)
