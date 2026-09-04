@@ -63,3 +63,25 @@ www.thenational.scot##div[class*="social-bar"]
 www.thenational.scot##div[class*="article-row-container--right"]
 www.thenational.scot##div[class="article-row-container--left"]:style(max-width: 1000px !important; box-sizing: content-box;)
 www.thenational.scot##div[class="article-row-container"]:style(grid-template-columns: auto !important;)
+
+
+! Carefully hand-written rules for https://www.glasgowtimes.co.uk
+www.glasgowtimes.co.uk##div[class*="social-bar"]
+www.glasgowtimes.co.uk##div[class*="article-row-container--right"]
+www.glasgowtimes.co.uk##div[class="article-row-container--left"]:style(max-width: 1000px !important; box-sizing: content-box;)
+www.glasgowtimes.co.uk##div[class="article-row-container"]:style(grid-template-columns: auto !important;)
+
+
+! Carefully hand-written rules for https://www.glasgowheritage.org.uk/
+www.glasgowheritage.org.uk##div[class="dialog-widget"]
+
+! Carefully hand-written rules for https://www.thescottishsun.co.uk
+www.thescottishsun.co.uk##div[class="google-preferred-source"]
+www.thescottishsun.co.uk##div[data-spotim-app="conversation"]
+www.thescottishsun.co.uk##div[class^="comments__anchor"]
+www.thescottishsun.co.uk##div[class^="digital-personalisation"]
+www.thescottishsun.co.uk##div[class="article-readmore"]
+www.thescottishsun.co.uk##div[class*="newsletter"]
+www.thescottishsun.co.uk##div[class*="item--sidebar"]
+www.thescottishsun.co.uk##div[class="layout__inner"]:style(width: 900px !important; box-sizing: content-box;)
+www.thescottishsun.co.uk##div[class="layout__grid"]:style(grid-template-columns: auto !important;)
