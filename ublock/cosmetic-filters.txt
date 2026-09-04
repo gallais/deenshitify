@@ -1,5 +1,8 @@
 tinypass.com
 
+! Carefully hand-written rules for https://its-printapp.ds.strath.ac.uk/
+its-printapp.ds.strath.ac.uk##tr:has-text("Single Sided")
+
 ! Carefully hand-written rules for https://dl.acm.org
 dl.acm.org##* > .premium
 dl.acm.org##aside
@@ -64,13 +67,11 @@ www.thenational.scot##div[class*="article-row-container--right"]
 www.thenational.scot##div[class="article-row-container--left"]:style(max-width: 1000px !important; box-sizing: content-box;)
 www.thenational.scot##div[class="article-row-container"]:style(grid-template-columns: auto !important;)
 
-
 ! Carefully hand-written rules for https://www.glasgowtimes.co.uk
 www.glasgowtimes.co.uk##div[class*="social-bar"]
 www.glasgowtimes.co.uk##div[class*="article-row-container--right"]
 www.glasgowtimes.co.uk##div[class="article-row-container--left"]:style(max-width: 1000px !important; box-sizing: content-box;)
 www.glasgowtimes.co.uk##div[class="article-row-container"]:style(grid-template-columns: auto !important;)
-
 
 ! Carefully hand-written rules for https://www.glasgowheritage.org.uk/
 www.glasgowheritage.org.uk##div[class="dialog-widget"]
