@@ -46,10 +46,14 @@ const blocked =
   , "1785968"
   , "1794874"
   , "190505"
+  , "193184"
   , "237527"
+  , "321764"
   , "426429"
+  , "435025"
   , "437258"
   , "460253"
+  , "497532"
   , "589838"
   , "62342"
   , "652793"
@@ -72,7 +76,7 @@ const blocked =
   cmts.forEach( (cmt) => {
     let uid = cmt.getAttribute('data-author-uid');
     if (blocked.includes(uid)) {
-      cmt.setAttribute('style', 'display: none');
+      cmt.setAttribute('style', 'opacity: 10%;');
     } else {
       let link = cmt.querySelector('a[rel="author"]');
       if (link) {
