@@ -46,6 +46,7 @@ www.theguardian.com/##div[class*="maybe-later"]
 www.theguardian.com/##div[data-gu-name="right-column"]
 www.theguardian.com/###maincontent > div, p:style(max-width: 1000px !important; width:1000px; text-align: justify)
 www.theguardian.com/###slot-body-end
+www.theguardian.com/##gu-island[name="EmailSignUpWrapper"]
 
 ! Carefully hand-written rules for https://www.dailyrecord.co.uk/
 www.dailyrecord.co.uk###pp-prompt
@@ -92,3 +93,6 @@ www.thescottishsun.co.uk##div[class="layout__grid"]:style(grid-template-columns:
 ! Carefully hand-written rules for ed zitron
 www.wheresyoured.at##aside[class="sidebar"]
 www.wheresyoured.at##div[class^="outpost-pub-container"]
+
+! 3 Nov 2026 https://www.ebay.co.uk
+www.ebay.co.uk###dp-live-events-carousel
